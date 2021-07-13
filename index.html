@@ -1,6 +1,5 @@
 <!DOCTYPE html> <html><head>
         <title>-- Gavin Ledford --</title>
-
     <style>/* overall formatting */
 html {
     background-color: #19191b;
@@ -79,8 +78,60 @@ p {
     height: 600px;
     padding: 1px;
     background-color: #727272;
+    animation: movingPic infinite 2s ease-in-out;
 }
 
+/* ANIMATION */
+
+@keyframes movingPic {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    5% {
+        transform: translate(0px, 1px);
+    }
+
+    10% {
+        transform: translate(0px, 2px);
+    }
+
+    20% {
+        transform: translate(0px, 2px);
+    }
+
+    30% {
+        transform: translate(0px, 1px);
+    }
+
+    40% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    60% {
+        transform: translate(0px, -1px);
+    }
+
+    70% {
+        transform: translate(0px, -2px);
+    }
+
+    80% {
+        transform: translate(0px, -2px);
+    }
+
+    90% {
+        transform: translate(0px, -1px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
 
 
 /* ABOUT */
@@ -125,8 +176,8 @@ p {
 
 
 /* PRESENTATION */
-.pres{
- 	color: #ffffff;
+.pres {
+    color: #ffffff;
     position: absolute;
     top: 320%;
     left: 30%;
@@ -135,8 +186,8 @@ p {
     padding: 11px;
 }
 
-.pres-img{
- 	height:200px;   
+.pres-img {
+    height: 200px;
 }
 
 /* CONTACT-ME */
@@ -149,31 +200,31 @@ p {
 }
 
 .column {
-  float: left;
-  width: 33.33%;
+    float: left;
+    width: 33.33%;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.column-display{
- 	text-align: center;
+.column-display {
+    text-align: center;
     padding: 8px;
 }
 
-.github-icon{
- 	height: 200px;   
+.github-icon {
+    height: 200px;
 }
 
-.instagram-icon{
- 	height: 200px;   
+.instagram-icon {
+    height: 200px;
 }
 
-.email-icon{
- 	height: 200px;   
+.email-icon {
+    height: 200px;
 }</style></head>
 
     <body>
@@ -186,7 +237,6 @@ p {
             <a href="#about">About</a>
             <a href="#home">Home</a>
         </div>
-
 
         <!-- Website layout -->
 
@@ -239,14 +289,14 @@ p {
             <br>
             Software Development Presentation
         </div>
-        
+
         <div id="contact-me" class="contactMe shadow boxed">
             <h3>Contact Me!</h3>
 
             <div class="shadow column-display">
                 <div class="row">
                     <div class="column shadowed">
-                    	<a href="https://github.com/Dahrq" target="_blank"><img class="github-icon" src="https://cdn.onlinewebfonts.com/svg/img_327941.png"></a>
+                        <a href="https://github.com/Dahrq" target="_blank"><img class="github-icon" src="https://cdn.onlinewebfonts.com/svg/img_327941.png"></a>
                         <br>
                         Github
                     </div>
@@ -254,17 +304,17 @@ p {
                         <a href="mailto: gwl32404@gmail.com"><img class="email-icon" src="https://th.bing.com/th/id/R.3ea5d09ed6d30dbf6f1f4871e5e4c788?rik=eup%2fip%2b%2bPb5cTA&amp;riu=http%3a%2f%2fwww.iconninja.com%2ffiles%2f251%2f835%2f636%2fblack-email-icon.png&amp;ehk=MRfsAEsSVSSBYQmxuFfZs9MoETTvHG4hR5pfgPcsx6k%3d&amp;risl=&amp;pid=ImgRaw"></a>
                         <br>
                         G-mail
-                        
+
                     </div>
                     <div class="column shadowed">
                         <a href="https://www.instagram.com/dahrq_/" target="_blank"><img class="instagram-icon" src="https://www.stanthonyshs.org/wp-content/uploads/2018/01/instagram-logo-black-transparent.png"></a>
-                    	<br>
+                        <br>
                         Instagram
-                   	</div>
+                    </div>
                 </div>
             </div>
         </div>
-        
+
     
 
 </body></html>
